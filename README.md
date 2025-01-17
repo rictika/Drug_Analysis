@@ -23,58 +23,81 @@ Details: This dataset tracks yearly deaths from causes like:
 •	Homicide
 •	Drug overdose
 
-How the Data Was Used
+How the Data Was Used:
+
 Primary Dataset: “Accidental_Drug_Related_Deaths_2012-2023.csv”
+
 Why We Used It:
 We relied on this dataset to understand the specifics of drug-related deaths. The goal was to identify trends and patterns linked to demographics, substances, and times.
+
 Key Applications:
+
 1.	Who Is Affected?
+   
 We examined gender, age, and location to identify which groups are most at risk.
 o	Cleaned up data inconsistencies, like filling missing ages and standardizing gender categories.
-2.	Substance Trends:
+
+3.	Substance Trends:
+4.	
 Explored patterns in the use of substances like Fentanyl, Heroin, Cocaine, and others.
 o	Used Simple techniques to make comparisons easier across different substances.
-3.	Tracking Changes Over Time:
+
+6.	Tracking Changes Over Time:
 Looked at yearly incident trends to see how drug-related deaths evolved over time.
-4.	Relationships Between Variables:
+
+8.	Relationships Between Variables:
 Built a correlation matrix to see how age and different substances might relate.
+
 What We Learned:
 •	Men are disproportionately affected by drug-related deaths.
 •	The 40–60 age group is the most impacted.
 •	Fentanyl use has surged in recent years, indicating a growing crisis.
 
 Supplemental Dataset: “Monthly_Counts_of_Deaths_by_Select_Causes__2014-2019.csv”
+
 Why We Used It:
 This dataset helped us understand the broader context of drug-related deaths by comparing them to other causes of death, like suicides and car accidents.
+
 Key Applications:
 Year-by-Year Totals:
 •	Analyzed yearly deaths for causes such as overdoses, suicides, and car accidents.
 •	Summarized the total deaths for each cause to identify significant trends.
+
 1.	Spotting Patterns:
 Used a heatmap to highlight how deaths from different causes changed year by year.
-2.	Comparing Drug Deaths:
+
+3.	Comparing Drug Deaths:
 Showed how drug overdoses stand out compared to other causes of death.
+
 What We Learned:
+
 •	Drug overdoses have risen consistently, emphasizing the need for urgent attention.
 •	Suicide rates have remained stable, while car accident deaths showed fluctuations but ended on a downward trend.
 •	Homicide rates, while lower overall, stayed steady compared to overdoses and suicides.
 
-Requirements
-How to Set Up in Google Colab
+Requirements:
+
+How to Set Up in Google Colab:
+
 1. Upload the Repository to Google Colab
-1.	Clone the repository:
+2.	Clone the repository:
 !git clone https://github.com/your-repo.git
 %cd your-repo
+
 2. Upload Datasets
 You can store your datasets in Google Drive and mount the drive:
 from google.colab import drive drive.mount('/content/drive')
-3. Run the Scripts
+
+4. Run the Scripts:
+   
 Run the following scripts to clean, analyze, and visualize the data:
+
 1.	Data Cleaning: Prepare the data using data_cleaning.py:
 2.	Visualization: Generate visualizations using visualization.py:
 3.	Analysis: Perform statistical analysis using analysis.py:
 
-Project Files
+Project Files:
+
 1. Datasets
 •	Accidental_Drug_Related_Deaths_2012-2023.csv: Contains data on drug-related deaths across the U.S.
 •	Monthly_Counts_of_Deaths_by_Select_Causes__2014-2019.csv: Data on deaths categorized by cause.
