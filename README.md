@@ -38,7 +38,7 @@ We examined gender, age, and location to identify which groups are most at risk.
 o	Cleaned up data inconsistencies, like filling missing ages and standardizing gender categories.
 
 3.	Substance Trends:
-4.	
+	
 Explored patterns in the use of substances like Fentanyl, Heroin, Cocaine, and others.
 o	Used Simple techniques to make comparisons easier across different substances.
 
