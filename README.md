@@ -75,19 +75,6 @@ What We Learned:
 •	Suicide rates have remained stable, while car accident deaths showed fluctuations but ended on a downward trend.
 •	Homicide rates, while lower overall, stayed steady compared to overdoses and suicides.
 
-Requirements:
-
-How to Set Up in Google Colab:
-
-1. Upload the Repository to Google Colab
-2.	Clone the repository:
-!git clone https://github.com/your-repo.git
-%cd your-repo
-
-2. Upload Datasets
-You can store your datasets in Google Drive and mount the drive:
-from google.colab import drive drive.mount('/content/drive')
-
 4. Run the Scripts:
    
 Run the following scripts to clean, analyze, and visualize the data:
